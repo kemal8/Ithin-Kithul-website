@@ -1,0 +1,90 @@
+.home, .home * { box-sizing: border-box; }.home {background: radial-gradient(closest-side, rgba(255, 255, 255, 1.00) 0%,rgba(252, 246, 228, 1.00) 100%); width: 1440px; height: 2741px; position: relative; overflow: hidden;}
+ .navigation {display: flex; flex-direction: row; align-items: center; justify-content: space-between; width: 1271px; position: absolute; left: 80px;top: 48px;}
+ .ithin-kithul-logo {flex-shrink: 0; width: 278px; height: 104px; position: relative;}
+ .nav-menu {flex-shrink: 0; width: 164px; height: 15.64px; position: static;}
+ .cart {position: absolute; left: 1176px;top: 44.18px; overflow: visible;}
+ .nav {position: absolute; left: 1250px;top: 45.67px; overflow: visible;}
+ .user {position: absolute; left: 1107px;top: 44.18px; overflow: visible;}
+ .harvesting-sweetness {color: #000000; text-align: center; font: 400 50px 'Dancing Script', sans-serif; position: absolute; left: 0px;top: 197px; width: 1440px; height: 80px;}
+ .main-hero {width: 1440px; height: 275px; position: absolute; left: 0px;top: 277px;}
+ .lorem-ipsum-dolor-sit-amet-consectur-adipiscing-dlit-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua-ut-enim-ad-minim-veniam-puis-nostrud-exercitation-uliamco {color: #000000; text-align: center; font: 500 16px 'Quicksand', sans-serif; position: absolute; left: 0px;top: 579px; width: 1440px; height: 58px;}
+ .go-to-products {position: absolute; inset: 0;}
+ .go-to-products2 {color: #000000; text-align: center; font: 500 14px 'Quicksand', sans-serif; position: absolute; left: 641px;top: 683px; width: 132px; height: 18px;}
+ .arrow-circle-right {position: absolute; left: 787px;top: 685px; overflow: visible;}
+ .tropical-kithul-ways {position: absolute; inset: 0;}
+ .tropical-kithul-ways2 {color: #000000; text-align: left; font: 400 34px 'Dancing Script', sans-serif; position: absolute; left: 88px;top: 837px; width: 294px; height: 41px;}
+ .kithul-cup {width: 196px; height: 204px; position: absolute; left: 88px;top: 889px;}
+ .lorem-ipsum-dolor-sit-amet-consectur-adipiscing-dlit-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua-ut-enim-ad-minim-veniam-puis-nostrud-exercitation-uliamco2 {color: #000000; text-align: left; font: 500 14px/132.5% 'Quicksand', sans-serif; position: absolute; left: 88px;top: 1129px; width: 371px; height: 83px;}
+ .find-more {width: 123px; height: 18px; position: static;}
+ .find-more2 {color: #000000; text-align: left; font: 500 14px 'Quicksand', sans-serif; position: absolute; left: 88px;top: 1264px; width: 95px; height: 18px;}
+ .arrow-circle-right2 {position: absolute; left: 195px;top: 1266px; overflow: visible;}
+ .the-process {position: absolute; inset: 0;}
+ .the-process2 {color: #000000; text-align: left; font: 400 34px 'Dancing Script', sans-serif; position: absolute; left: 88px;top: 1387px; width: 294px; height: 41px;}
+ .kithul-process-pic {width: 346px; height: 309px; position: absolute; left: 8px;top: 1472px;}
+ .lorem-ipsum-dolor-sit-amet-consectur-adipiscing-dlit-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua-ut-enim-ad-minim-veniam-puis-nostrud-exercitation-uliamco3 {color: #000000; text-align: left; font: 500 14px/132.5% 'Quicksand', sans-serif; position: absolute; left: 88px;top: 1811px; width: 371px; height: 83px;}
+ .product-standards {color: #000000; text-align: left; font: 600 14px/132.5% 'Quicksand', sans-serif; position: absolute; left: 88px;top: 1935px; width: 152px; height: 20px;}
+ .safe {width: 42px; height: 71px; position: static;}
+ .safe2 {color: #000000; text-align: left; font: 400 12px/132.5% 'Quicksand', sans-serif; position: absolute; left: 97px;top: 2026px; width: 30px; height: 20px;}
+ .safe-logo {width: 42px; height: 41px; position: static;}
+ .ellipse-15 {background: #ebe2db; border-radius: 50%; width: 35px; height: 34px; position: absolute; left: 97px;top: 1975px;}
+ .safe3 {width: 35px; height: 40px; position: absolute; left: 90px;top: 1976px;}
+ .clean {width: 45px; height: 71px; position: static;}
+ .clean2 {color: #000000; text-align: left; font: 400 12px/132.5% 'Quicksand', sans-serif; position: absolute; left: 185px;top: 2026px; width: 40px; height: 20px;}
+ .clean-logo {width: 40px; height: 40px; position: static;}
+ .ellipse-14 {background: #ebe2db; border-radius: 50%; width: 35px; height: 34px; position: absolute; left: 185px;top: 1975px;}
+ .clean3 {width: 36px; height: 38px; position: absolute; left: 180px;top: 1977px;}
+ .best-quality {width: 82px; height: 71px; position: static;}
+ .best-quality2 {color: #000000; text-align: left; font: 400 12px/132.5% 'Quicksand', sans-serif; position: absolute; left: 260px;top: 2026px; width: 82px; height: 20px;}
+ .best-quality-logo {width: 44px; height: 41px; position: static;}
+ .ellipse-16 {background: #ebe2db; border-radius: 50%; width: 35px; height: 34px; position: absolute; left: 282px;top: 1975px;}
+ .best-quality3 {width: 38px; height: 38px; position: absolute; left: 273px;top: 1978px;}
+ .eco-friendly {width: 82px; height: 71px; position: static;}
+ .eco-friendly2 {color: #000000; text-align: left; font: 400 12px/132.5% 'Quicksand', sans-serif; position: absolute; left: 355px;top: 2026px; width: 82px; height: 20px;}
+ .eco-friendly-logo {width: 44px; height: 42px; position: static;}
+ .ellipse-17 {background: #ebe2db; border-radius: 50%; width: 35px; height: 34px; position: absolute; left: 381px;top: 1975px;}
+ .eco-friendly3 {width: 41px; height: 40px; position: absolute; left: 372px;top: 1977px;}
+ .go-to-products3 {width: 178px; height: 18px; position: static;}
+ .go-to-products4 {color: #000000; text-align: left; font: 500 14px 'Quicksand', sans-serif; position: absolute; left: 90px;top: 2112px; width: 152px; height: 18px;}
+ .arrow-circle-right3 {position: absolute; left: 252px;top: 2113px; overflow: visible;}
+ .our-story {position: absolute; inset: 0;}
+ .our-story2 {color: #000000; text-align: left; font: 400 34px 'Dancing Script', sans-serif; position: absolute; left: 996px;top: 837px; width: 294px; height: 41px;}
+ .kithul-strap {width: 208px; height: 314px; position: absolute; left: 981px;top: 878px;}
+ .lorem-ipsum-dolor-sit-amet-consectur-adipiscing-dlit-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua-ut-enim-ad-minim-veniam-puis-nostrud-exercitation-uliamco-lorem-ipsum-dolor-sit-amet-consectur-adipiscing-dlit-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua-ut-enim-ad {color: #000000; text-align: left; font: 500 14px/184% 'Quicksand', sans-serif; position: absolute; left: 994px;top: 1207px; width: 380px; height: 187px;}
+ .find-more3 {width: 174px; height: 18px; position: static;}
+ .read-our-story {color: #000000; text-align: left; font: 500 14px 'Quicksand', sans-serif; position: absolute; left: 994px;top: 1443px; width: 147px; height: 18px;}
+ .arrow-circle-right4 {position: absolute; left: 1152px;top: 1444px; overflow: visible;}
+ .sustanability {position: absolute; inset: 0;}
+ .sustainability {color: #000000; text-align: left; font: 400 34px 'Dancing Script', sans-serif; position: absolute; left: 994px;top: 1551px; width: 294px; height: 41px;}
+ .kithul-plant {width: 352px; height: 233px; position: absolute; left: 981px;top: 1592px;}
+ .lorem-ipsum-dolor-sit-amet-consectur-adipiscing-dlit-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua-ut-enim-ad-minim-veniam-puis-nostrud-exercitation-uliamco-lorem-ipsum-dolor-sit-amet-consectur-adipiscing-dlit {color: #000000; text-align: left; font: 500 14px/184% 'Quicksand', sans-serif; position: absolute; left: 994px;top: 1839px; width: 380px; height: 187px;}
+ .read-more {width: 147px; height: 18px; position: static;}
+ .read-more2 {color: #000000; text-align: left; font: 500 14px 'Quicksand', sans-serif; position: absolute; left: 994px;top: 2046px; width: 147px; height: 18px;}
+ .arrow-circle-right5 {position: absolute; left: 1110px;top: 2048px; overflow: visible;}
+ .kithultree {width: 636px; height: 1226px; position: absolute; left: 372px;top: 729px;}
+ .footer {position: absolute; inset: 0;}
+ .ithin-kithul-logo2 {width: 278px; height: 104px; position: absolute; left: 581px;top: 2282px;}
+ .footer-menu {width: 751px; height: 18px; position: static;}
+ .our-products {color: #000000; text-align: left; font: 700 15px 'Quicksand', sans-serif; position: absolute; left: 346px;top: 2441px; width: 112px; height: 18px;}
+ .our-process {color: #000000; text-align: left; font: 700 15px 'Quicksand', sans-serif; position: absolute; left: 534px;top: 2441px; width: 112px; height: 18px;}
+ .our-story3 {color: #000000; text-align: left; font: 700 15px 'Quicksand', sans-serif; position: absolute; left: 711px;top: 2441px; width: 112px; height: 18px;}
+ .sustainability2 {color: #000000; text-align: left; font: 700 15px 'Quicksand', sans-serif; position: absolute; left: 867px;top: 2441px; width: 125px; height: 18px;}
+ .faq {color: #000000; text-align: left; font: 700 15px 'Quicksand', sans-serif; position: absolute; left: 1060px;top: 2441px; width: 37px; height: 18px;}
+ .no-123-abc-avenue-kandy-sri-lanka-94-771-123-45-94-771-678-91-ithinkithul-gmail-com {color: #000000; text-align: center; font: 500 14px/264% 'Quicksand', sans-serif; position: absolute; left: 534px;top: 2490px; width: 371px; height: 112px;}
+ .footer-social-media {width: 223px; height: 43.57px; position: static;}
+ .twiter {width: 42.57px; height: 42.57px; position: static;}
+ .path-147 {position: absolute; left: 711.1px;top: 2636.7px; overflow: visible;}
+ .path-1073 {position: absolute; left: 699px;top: 2623px; overflow: visible;}
+ .insta {width: 42px; height: 43px; position: static;}
+ .instagram {position: absolute; left: 802.95px;top: 2635.45px; overflow: visible;}
+ .ellipse-13 {position: absolute; left: 790px;top: 2622px; overflow: visible;}
+ .facebook {width: 42px; height: 43px; position: static;}
+ .fb {position: absolute; left: 625.81px;top: 2633.39px; overflow: visible;}
+ .ellipse-11 {position: absolute; left: 609px;top: 2622px; overflow: visible;}
+ .bottom-footer {width: 1270px; height: 30px; position: static;}
+ .tcp {width: 243px; height: 13px; position: static;}
+ .terms-conditions {width: 121px; height: 13px; position: static;}
+ .terms-conditions2 {color: #000000; text-align: center; font: 500 10px/97% 'Quicksand', sans-serif; text-decoration: underline; position: absolute; left: 594px;top: 2701px; width: 121px; height: 13px;}
+ .privacy-policy {width: 87px; height: 13px; position: static;}
+ .privacy-policy2 {color: #000000; text-align: center; font: 500 10px/97% 'Quicksand', sans-serif; text-decoration: underline; position: absolute; left: 750px;top: 2701px; width: 87px; height: 13px;}
+ .all-right-reserved-ithinkithul-2021 {color: #000000; text-align: center; font: 500 10px/97% 'Quicksand', sans-serif; position: absolute; left: 87px;top: 2702px; width: 217px; height: 13px;}
+ .company-logo {width: 37px; height: 30px; position: absolute; left: 1320px;top: 2686px;}
