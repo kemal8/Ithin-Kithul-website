@@ -1,16 +1,28 @@
+@font-face {
+    font-family: 'Dancing_Script';
+    src: url(font/DancingScript-VariableFont_wght.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Quicksand';
+    src: url(font/Quicksand-VariableFont_wght.ttf) format('truetype');
+}
+
 .home,
 .home * {
   box-sizing: border-box;
 }
+
+/* Start Home Page */
+
 .home {
   background: radial-gradient(
     closest-side,
     rgba(255, 255, 255, 1) 0%,
     rgba(252, 246, 228, 1) 100%
   );
-  width: 1440px;
+  width: 1450px;
   height: 2741px;
-  position: relative;
+  position: center;
   overflow: hidden;
 }
 .navigation {
@@ -56,7 +68,7 @@
 .harvesting-sweetness {
   color: #000000;
   text-align: center;
-  font: 400 50px "Dancing Script", sans-serif;
+  font: 400 50px "Dancing_Script", sans-serif;
   position: absolute;
   left: 0px;
   top: 197px;
@@ -87,7 +99,7 @@
 .go-to-products2 {
   color: #000000;
   text-align: center;
-  font: 500 14px "Quicksand", sans-serif;
+  font: 800 14px "Quicksand", sans-serif;
   position: absolute;
   left: 641px;
   top: 683px;
@@ -107,7 +119,7 @@
 .tropical-kithul-ways2 {
   color: #000000;
   text-align: left;
-  font: 400 34px "Dancing Script", sans-serif;
+  font: 400 34px "Dancing_Script", sans-serif;
   position: absolute;
   left: 88px;
   top: 837px;
@@ -139,7 +151,7 @@
 .find-more2 {
   color: #000000;
   text-align: left;
-  font: 500 14px "Quicksand", sans-serif;
+  font: 800 14px "Quicksand", sans-serif;
   position: absolute;
   left: 88px;
   top: 1264px;
@@ -159,7 +171,7 @@
 .the-process2 {
   color: #000000;
   text-align: left;
-  font: 400 34px "Dancing Script", sans-serif;
+  font: 400 34px "Dancing_Script", sans-serif;
   position: absolute;
   left: 88px;
   top: 1387px;
@@ -345,7 +357,7 @@
 .go-to-products4 {
   color: #000000;
   text-align: left;
-  font: 500 14px "Quicksand", sans-serif;
+  font: 800 14px "Quicksand", sans-serif;
   position: absolute;
   left: 90px;
   top: 2112px;
@@ -365,7 +377,7 @@
 .our-story2 {
   color: #000000;
   text-align: left;
-  font: 400 34px "Dancing Script", sans-serif;
+  font: 400 34px "Dancing_Script", sans-serif;
   position: absolute;
   left: 996px;
   top: 837px;
@@ -397,7 +409,7 @@
 .read-our-story {
   color: #000000;
   text-align: left;
-  font: 500 14px "Quicksand", sans-serif;
+  font: 800 14px "Quicksand", sans-serif;
   position: absolute;
   left: 994px;
   top: 1443px;
@@ -417,7 +429,7 @@
 .sustainability {
   color: #000000;
   text-align: left;
-  font: 400 34px "Dancing Script", sans-serif;
+  font: 400 34px "Dancing_Script", sans-serif;
   position: absolute;
   left: 994px;
   top: 1551px;
@@ -449,7 +461,7 @@
 .read-more2 {
   color: #000000;
   text-align: left;
-  font: 500 14px "Quicksand", sans-serif;
+  font: 800 14px "Quicksand", sans-serif;
   position: absolute;
   left: 994px;
   top: 2046px;
@@ -488,7 +500,7 @@
 .our-products {
   color: #000000;
   text-align: left;
-  font: 700 15px "Quicksand", sans-serif;
+  font: 800 15px "Quicksand", sans-serif;
   position: absolute;
   left: 346px;
   top: 2441px;
@@ -660,3 +672,566 @@
   left: 1320px;
   top: 2686px;
 }
+
+/* End Home Page */
+
+/* Start Products Page */
+
+.products,
+.products * {
+  box-sizing: border-box;
+}
+.products {
+  background: radial-gradient(
+    closest-side,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(252, 246, 228, 1) 100%
+  );
+  width: 1450px;
+  height: 2454px;
+  position: Center;
+  overflow: hidden;
+}
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 1271px;
+  position: absolute;
+  left: 80px;
+  top: 48px;
+}
+.ithin-kithul-logo {
+  flex-shrink: 0;
+  width: 278px;
+  height: 104px;
+  position: relative;
+}
+.nav-menu {
+  flex-shrink: 0;
+  width: 164px;
+  height: 15.64px;
+  position: static;
+}
+.cart {
+  position: absolute;
+  left: 1176px;
+  top: 44.18px;
+  overflow: visible;
+}
+.nav {
+  position: absolute;
+  left: 1250px;
+  top: 45.67px;
+  overflow: visible;
+}
+.user {
+  position: absolute;
+  left: 1107px;
+  top: 44.18px;
+  overflow: visible;
+}
+.our-products {
+  color: #000000;
+  text-align: center;
+  font: 400 50px "Dancing_Script", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 197px;
+  width: 1440px;
+  height: 80px;
+}
+.lorem-ipsum-dolor-sit-amet-consectur-adipiscing-dlit-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua-ut-enim-ad-minim-veniam-puis-nostrud-exercitation-uliamco-lorem-ipsum-dolor-sit-amet-consectur-adipiscing-dlit-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua-ut-enim-ad-minim-veniam-puis-nostrud-exercitation-uliamco {
+  color: #000000;
+  text-align: center;
+  font: 500 16px "Quicksand", sans-serif;
+  position: absolute;
+  left: 332px;
+  top: 322px;
+  width: 768px;
+  height: 115px;
+}
+.ithin-kithul-treade {
+  position: absolute;
+  inset: 0;
+}
+.ithin-kithul-treade2 {
+  color: #000000;
+  text-align: left;
+  font: 400 34px "Dancing_Script", sans-serif;
+  position: absolute;
+  left: 91px;
+  top: 579px;
+  width: 294px;
+  height: 41px;
+}
+.lorem-ipsum-dolor-sit-amet-consectur-adipiscing-dlit-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua-ut-enim-ad-minim-veniam-puis-nostrud-exercitation-uliamco-lorem-ipsum-dolor-sit-amet-consectur-adipiscing-dlit-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua-ut-enim-ad-minim-veniam-puis-nostrud-exercitation-uliamco2 {
+  color: #000000;
+  text-align: center;
+  font: 500 14px/219% "Quicksand", sans-serif;
+  position: absolute;
+  left: 91px;
+  top: 674px;
+  width: 363px;
+  height: 297px;
+}
+.the-process {
+  position: absolute;
+  inset: 0;
+}
+.ithin-kithul-jaggery {
+  color: #000000;
+  text-align: left;
+  font: 400 34px "Dancing_Script", sans-serif;
+  position: absolute;
+  left: 89px;
+  top: 1314px;
+  width: 294px;
+  height: 41px;
+}
+.lorem-ipsum-dolor-sit-amet-consectur-adipiscing-dlit-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua-ut-enim-ad-minim-veniam-puis-nostrud-exercitation-uliamco-lorem-ipsum-dolor-sit-amet-consectur-adipiscing-dlit-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua-ut-enim-ad-minim-veniam-puis-nostrud-exercitation-uliamco-lorem-ipsum-dolor-sit-amet-consectur-adipiscing-dlit-sed-do-eiusmod {
+  color: #000000;
+  text-align: center;
+  font: 500 14px/219% "Quicksand", sans-serif;
+  position: absolute;
+  left: 78px;
+  top: 1401px;
+  width: 384px;
+  height: 396px;
+}
+.footer {
+  position: absolute;
+  inset: 0;
+}
+.ithin-kithul-logo2 {
+  width: 278px;
+  height: 93.11px;
+  position: absolute;
+  left: 581px;
+  top: 1963px;
+}
+.footer-menu {
+  width: 751px;
+  height: 18px;
+  position: static;
+}
+.our-products2 {
+  color: #000000;
+  text-align: left;
+  font: 700 15px "Quicksand", sans-serif;
+  position: absolute;
+  left: 348px;
+  top: 2150px;
+  width: 112px;
+  height: 18px;
+}
+.our-process {
+  color: #000000;
+  text-align: left;
+  font: 700 15px "Quicksand", sans-serif;
+  position: absolute;
+  left: 536px;
+  top: 2150px;
+  width: 112px;
+  height: 18px;
+}
+.our-story {
+  color: #000000;
+  text-align: left;
+  font: 700 15px "Quicksand", sans-serif;
+  position: absolute;
+  left: 713px;
+  top: 2150px;
+  width: 112px;
+  height: 18px;
+}
+.sustainability {
+  color: #000000;
+  text-align: left;
+  font: 700 15px "Quicksand", sans-serif;
+  position: absolute;
+  left: 869px;
+  top: 2150px;
+  width: 125px;
+  height: 18px;
+}
+.faq {
+  color: #000000;
+  text-align: left;
+  font: 700 15px "Quicksand", sans-serif;
+  position: absolute;
+  left: 1062px;
+  top: 2150px;
+  width: 37px;
+  height: 18px;
+}
+.no-123-abc-avenue-kandy-sri-lanka-94-771-123-45-94-771-678-91-ithinkithul-gmail-com {
+  color: #000000;
+  text-align: center;
+  font: 500 14px/264% "Quicksand", sans-serif;
+  position: absolute;
+  left: 536px;
+  top: 2199px;
+  width: 371px;
+  height: 112px;
+}
+.footer-social-media {
+  width: 223px;
+  height: 39.01px;
+  position: static;
+}
+.twiter {
+  width: 42.57px;
+  height: 38.11px;
+  position: static;
+}
+.path-147 {
+  position: absolute;
+  left: 713.1px;
+  top: 2100.09px;
+  overflow: visible;
+}
+.path-1073 {
+  position: absolute;
+  left: 701px;
+  top: 2087.82px;
+  overflow: visible;
+}
+.insta {
+  width: 42px;
+  height: 38.5px;
+  position: static;
+}
+.instagram {
+  position: absolute;
+  left: 804.95px;
+  top: 2098.97px;
+  overflow: visible;
+}
+.ellipse-13 {
+  position: absolute;
+  left: 792px;
+  top: 2086.93px;
+  overflow: visible;
+}
+.facebook {
+  width: 42px;
+  height: 38.5px;
+  position: static;
+}
+.fb {
+  position: absolute;
+  left: 627.81px;
+  top: 2097.13px;
+  overflow: visible;
+}
+.ellipse-11 {
+  position: absolute;
+  left: 611px;
+  top: 2086.93px;
+  overflow: visible;
+}
+.bottom-footer {
+  width: 1270px;
+  height: 30px;
+  position: static;
+}
+.tcp {
+  width: 243px;
+  height: 13px;
+  position: static;
+}
+.terms-conditions {
+  width: 121px;
+  height: 13px;
+  position: static;
+}
+.terms-conditions2 {
+  color: #000000;
+  text-align: center;
+  font: 500 10px/97% "Quicksand", sans-serif;
+  text-decoration: underline;
+  position: absolute;
+  left: 596px;
+  top: 2410px;
+  width: 121px;
+  height: 13px;
+}
+.privacy-policy {
+  width: 87px;
+  height: 13px;
+  position: static;
+}
+.privacy-policy2 {
+  color: #000000;
+  text-align: center;
+  font: 500 10px/97% "Quicksand", sans-serif;
+  text-decoration: underline;
+  position: absolute;
+  left: 752px;
+  top: 2410px;
+  width: 87px;
+  height: 13px;
+}
+.all-right-reserved-ithinkithul-2021 {
+  color: #000000;
+  text-align: center;
+  font: 500 10px/97% "Quicksand", sans-serif;
+  position: absolute;
+  left: 89px;
+  top: 2411px;
+  width: 217px;
+  height: 13px;
+}
+.company-logo {
+  width: 37px;
+  height: 30px;
+  position: absolute;
+  left: 1322px;
+  top: 2395px;
+}
+.ithin-kithul-treadeimg {
+  width: 293px;
+  height: 438px;
+  position: absolute;
+  left: 559px;
+  top: 541px;
+}
+.add-to-cart {
+  position: absolute;
+  inset: 0;
+}
+.round-button-on {
+  width: 19px;
+  height: 19px;
+  position: static;
+}
+.ellipse-18 {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  left: 574px;
+  top: 1024px;
+}
+.ellipse-19 {
+  background: #323232;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 576px;
+  top: 1026px;
+}
+.round-button-off {
+  width: 19px;
+  height: 19px;
+  position: static;
+}
+.ellipse-182 {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  left: 725px;
+  top: 1024px;
+}
+._50-ml {
+  color: #000000;
+  text-align: left;
+  font: 400 23px "Acme", sans-serif;
+  position: absolute;
+  left: 614px;
+  top: 1019px;
+  width: 67px;
+  height: 28px;
+}
+._100-ml {
+  color: #000000;
+  text-align: left;
+  font: 400 23px "Acme", sans-serif;
+  position: absolute;
+  left: 765px;
+  top: 1019px;
+  width: 81px;
+  height: 28px;
+}
+.cart-add {
+  width: 164px;
+  height: 47px;
+  position: static;
+}
+.rectangle-18 {
+  border-style: solid;
+  border-color: #a98360;
+  border-width: 1px;
+  width: 164px;
+  height: 47px;
+  position: absolute;
+  left: 610px;
+  top: 1095px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.AddRemoveMark1{
+  color: #a98360;
+  text-align: left;
+  font: 400 23px "Acme", sans-serif;
+  position: absolute;
+  left: 641px;
+  top: 1104px;
+  width: 14px;
+  height: 30px;
+}
+._01 {
+  color: #a98360;
+  text-align: left;
+  font: 400 16px "Acme", sans-serif;
+  position: absolute;
+  left: 683px;
+  top: 1111px;
+  width: 26px;
+  height: 30px;
+}
+.AddRemoveMark2{
+  color: #a98360;
+  text-align: left;
+  font: 400 23px "Acme", sans-serif;
+  position: absolute;
+  left: 737px;
+  top: 1104px;
+  width: 14px;
+  height: 30px;
+}
+.shop-now {
+  position: absolute;
+  left: 784px;
+  top: 1095px;
+  overflow: visible;
+}
+.ithin-kithul-jaggeryimg {
+  width: 366px;
+  height: 341px;
+  position: absolute;
+  left: 508px;
+  top: 1345px;
+}
+.add-to-cart-button {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-20 {
+  background: #a98360;
+  width: 228px;
+  height: 47px;
+  position: absolute;
+  left: 610px;
+  top: 1766px;
+}
+.add-to-cart2 {
+  color: #ffffff;
+  text-align: center;
+  font: 400 25px "Acme", sans-serif;
+  position: absolute;
+  left: 627px;
+  top: 1774px;
+  width: 191px;
+  height: 31px;
+}
+.ithin-kithul-treade-nutritional-content-30-ml {
+  position: absolute;
+  inset: 0;
+}
+.nutritional-content-30-ml {
+  color: #000000;
+  text-align: left;
+  font: 800 30px "Acme", sans-serif;
+  position: absolute;
+  left: 936px;
+  top: 567px;
+  width: 459px;
+  height: 43px;
+}
+.carbs-29-g-dietary-fiber-0-g-sugar-30-g {
+  color: #000000;
+  text-align: left;
+  font: 800 15px/195% "Acme", sans-serif;
+  position: absolute;
+  left: 936px;
+  top: 651px;
+  width: 419px;
+  height: 93px;
+}
+.fat-0-g-saturated-0-g-polyunsaturated-0-g-monounsaturated-0-g-trans-0-g {
+  color: #000000;
+  text-align: left;
+  font: 800 15px/195% "Acme", sans-serif;
+  position: absolute;
+  left: 936px;
+  top: 769px;
+  width: 419px;
+  height: 146px;
+}
+.protein-0-g {
+  color: #000000;
+  text-align: left;
+  font: 800 15px/195% "Acme", sans-serif;
+  position: absolute;
+  left: 936px;
+  top: 940px;
+  width: 419px;
+  height: 28px;
+}
+.ithin-kithul-jaggery-nutritional-content-100-g {
+  position: absolute;
+  inset: 0;
+}
+.nutritional-content-100-g {
+  color: #000000;
+  text-align: left;
+  font: 800 30px "Acme", sans-serif;
+  position: absolute;
+  left: 936px;
+  top: 1314px;
+  width: 459px;
+  height: 43px;
+}
+.carbs-85-g-dietary-fiber-0-g-sugar-85-g {
+  color: #000000;
+  text-align: left;
+  font: 800 15px/195% "Acme", sans-serif;
+  position: absolute;
+  left: 936px;
+  top: 1398px;
+  width: 419px;
+  height: 93px;
+}
+.fat-0-g-saturated-0-g-polyunsaturated-0-g-monounsaturated-0-g-trans-0-g2 {
+  color: #000000;
+  text-align: left;
+  font: 800 15px/195% "Acme", sans-serif;
+  position: absolute;
+  left: 936px;
+  top: 1516px;
+  width: 419px;
+  height: 146px;
+}
+.protein-0-g2 {
+  color: #000000;
+  text-align: left;
+  font: 800 15px/195% "Acme", sans-serif;
+  position: absolute;
+  left: 936px;
+  top: 1687px;
+  width: 419px;
+  height: 28px;
+}
+
+
+/* End Products Page */
